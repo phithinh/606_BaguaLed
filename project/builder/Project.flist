@@ -1,0 +1,4 @@
+#include 606_BaguaLed/scrs/swc/swc.flist
+#include 606_BaguaLed/scrs/bsw/bsw.flist
+
+#include 606_BaguaLed/scrs/rte/rte.flist

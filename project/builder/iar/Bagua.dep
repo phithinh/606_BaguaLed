@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2226492242</fileChecksum>
+  <configuration>
+    <name>Bagua Configuration</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Src\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Src\freertos.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Src\stm32f1xx_it.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\portasm.s</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\port.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\croutine.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\timers.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\list.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Src\stm32f1xx_hal_msp.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\iar\startup_stm32f100xb.s</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Exe\Bagua Configuration.out</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\freertos.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_it.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\main.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_msp.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\system_stm32f1xx.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_dma.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_cortex.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_flash.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\cmsis_os.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\queue.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\heap_4.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_flash_ex.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\port.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_gpio_ex.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_gpio.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_rcc_ex.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_rtc.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_rtc_ex.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\croutine.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\event_groups.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\list.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_dma.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_cortex.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_rtc_ex.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\startup_stm32f100xb.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\cmsis_os.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\freertos.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\croutine.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_flash.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\event_groups.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\portasm.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_pwr.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_msp.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_flash_ex.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\heap_4.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_gpio_ex.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_rtc.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\Bagua.pbd</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\timers.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\system_stm32f1xx.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_hal_rcc_ex.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\stm32f1xx_it.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f100xb.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Inc\stm32f1xx_hal_conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\rte\environment\environment.h</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\rte\environment\environment.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\bagua.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\bagua.c</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\environment.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\bsw\McuDrv\gpio\gpio_hardware_config.h</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\environment.o</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\bsw\McuDrv\gpio\gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\bsw\McuDrv\gpio\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\bsw\Common\general_define.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\bsw\Common\norm.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\bsw\Common\PlatformDefine.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\button_scan\button_scan.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\button_scan\button_scan.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\button_scan\button_scan_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\button_scan\button_scan_state.c</file>
+      <file>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\button_scan\button_scan_adpt.h</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\button_scan.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\bagua.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\bagua.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\button_scan_state.o</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\button_scan.pbi</file>
+      <file>$PROJ_DIR$\Bagua Configuration\Obj\button_scan_state.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Src\freertos.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 109 114 99 87 112 111 110 88 86 84 101 94 95 103 104 98 96 102 97 93 105 100 89 90 91 85 92 107 108 113 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Src\stm32f1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 86 101 104 84 97 99 111 88 95 96 109 87 112 94 103 98 102 93 105 100 89 90 91 85 92 114 115 107 108 113 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\port.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\croutine.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Middlewares\Third_Party\FreeRTOS\Source\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Src\stm32f1xx_hal_msp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\_Cube_gen\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\iar\startup_stm32f100xb.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\rte\environment\environment.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\bagua.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\bsw\McuDrv\gpio\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\button_scan\button_scan.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\scrs\swc\bagua_led\button_scan\button_scan_state.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

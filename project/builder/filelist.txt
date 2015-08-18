@@ -1,0 +1,15 @@
+$(ROOT)/606_BaguaLed/scrs/swc/bagua_led/bagua.c
+$(ROOT)/606_BaguaLed/scrs/swc/bagua_led/bagua.h
+$(ROOT)/606_BaguaLed/scrs/swc/bagua_led/button_scan/button_scan_adpt.h
+$(ROOT)/606_BaguaLed/scrs/swc/bagua_led/button_scan/button_scan_cfg.h
+$(ROOT)/606_BaguaLed/scrs/swc/bagua_led/button_scan/button_scan_state.c
+$(ROOT)/606_BaguaLed/scrs/swc/bagua_led/button_scan/button_scan.c
+$(ROOT)/606_BaguaLed/scrs/swc/bagua_led/button_scan/button_scan.h
+$(ROOT)/606_BaguaLed/scrs/bsw/Common/general_define.h
+$(ROOT)/606_BaguaLed/scrs/bsw/McuDrv/gpio/gpio.c
+$(ROOT)/606_BaguaLed/scrs/bsw/McuDrv/gpio/gpio.h
+$(ROOT)/606_BaguaLed/scrs/bsw/McuDrv/gpio/gpio_hardware_config.h
+$(ROOT)/606_BaguaLed/scrs/rte/environment/environment.c
+$(ROOT)/606_BaguaLed/scrs/rte/environment/environment.h
+$(ROOT)/606_BaguaLed/scrs/rte/interfaces/interfaces.c
+$(ROOT)/606_BaguaLed/scrs/rte/interfaces/interfaces.h
